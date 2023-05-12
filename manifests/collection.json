@@ -1,0 +1,13 @@
+{
+  "id" : "https://Camilla-Bz.github.io/glitch-manifest/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in Camilla-Bz/glitch-manifest project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://Camilla-Bz.github.io/glitch-manifest/manifests/glitch-manifest.json",
+    "label" : "Glitch Art Manifest"
+  } ]
+}
