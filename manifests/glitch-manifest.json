@@ -1,0 +1,515 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://Camilla-Bz.github.io/glitch-manifest/manifests/glitch-manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "Glitch Art Manifest",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Artworks list: A Color Box (1935) by Len Lye; Magnet TV (1965) by Nam June Paik; My%Desktop (2002) by JODI; Super Mario Clouds (2002) by Cory Arcangel; Monster Movie (2005) by Takeshi Murata; The Collapse of PAL (2010) by Rosa Menkman.",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Camilla Brazzo",
+  "sequences" : [ {
+    "@id" : "http://964372f8-9d20-4050-a007-e7f1b627d65e",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://dcb11863-60fb-4ac6-8386-95158958fdfd",
+      "@type" : "sc:Canvas",
+      "label" : "A Color Box (1935)",
+      "height" : 576,
+      "width" : 768,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://d97da60e-8403-4e06-953d-9a14bd8cb835",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8182/iiif/2/lye.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://localhost:8182/iiif/2/lye.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 442368,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 576,
+          "width" : 768
+        },
+        "on" : "http://dcb11863-60fb-4ac6-8386-95158958fdfd"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "title",
+        "value" : "A Color Box"
+      }, {
+        "label" : "creator",
+        "value" : "Len Lye"
+      }, {
+        "label" : "subject",
+        "value" : "experimental cinema"
+      }, {
+        "label" : "subject",
+        "value" : "animated\nfilm"
+      }, {
+        "label" : "date",
+        "value" : "1935"
+      }, {
+        "label" : "description",
+        "value" : "Lye’s first “direct” (camera-less) animation combined popular Cuban dance music with hand-painted abstract designs. Screened in many cinemas in Britain, the film had a huge impact because of its novelty and because it divided audiences – some viewers loved it, others hated it. Colour was still a novelty and Lye’s direct painting on celluloid created brilliant colours. The film won festival awards, though some festivals had to invent a special category for this new style of animation. In Venice, the Fascists disrupted screenings because they saw it as “degenerate” modern art. The film was funded and distributed by John Grierson’s GPO Film Unit on the condition that Lye included a postal advertisement at the end. The film has been restored by the British Film Institute."
+      }, {
+        "label" : "technique",
+        "value" : "Misregistation, painting on celluloid"
+      }, {
+        "label" : "publisher",
+        "value" : "GPO Film Unit"
+      }, {
+        "label" : "DCMIType",
+        "value" : "MovingImage"
+      }, {
+        "label" : "format",
+        "value" : "video"
+      }, {
+        "label" : "medium",
+        "value" : "film, colour and sound"
+      }, {
+        "label" : "extent",
+        "value" : "4 min"
+      }, {
+        "label" : "source",
+        "value" : "http://www.lenlyefoundation.com/films/a-colour-box/21/"
+      }, {
+        "label" : "rights",
+        "value" : "The Len Lye Foundation"
+      } ]
+    }, {
+      "@id" : "http://bbe991e4-d29e-48da-badf-b30e8ffe6cff",
+      "@type" : "sc:Canvas",
+      "label" : "Magnet TV (1965)",
+      "height" : 751,
+      "width" : 960,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://12f8f93c-6c7f-4b98-ab60-e1bad5de774b",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8182/iiif/2/p_magnet.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://localhost:8182/iiif/2/p_magnet.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 720960,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 751,
+          "width" : 960
+        },
+        "on" : "http://bbe991e4-d29e-48da-badf-b30e8ffe6cff"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "title",
+        "value" : "Magnet TV"
+      }, {
+        "label" : "creator",
+        "value" : "Nam June Paik"
+      }, {
+        "label" : "subject",
+        "value" : "television"
+      }, {
+        "label" : "subject",
+        "value" : "magnet"
+      }, {
+        "label" : "subject",
+        "value" : "video art"
+      }, {
+        "label" : "subject",
+        "value" : "sculpture"
+      }, {
+        "label" : "date",
+        "value" : "1965"
+      }, {
+        "label" : "description",
+        "value" : "Magnet TV is an early example of Nam June Paik’s “prepared televisions,” in which he altered the television image or its physical casing. This work, which was featured in Paik’s first solo exhibition in New York, consists of a seventeen-inch black-and-white set on which an industrial-sized magnet rests. The magnetic field interferes with the television’s electronic signals, distorting the broadcast image into an abstract form that changes when the magnet is moved. Paik’s radical action undermines the seemingly inviolable power of broadcast television by transforming the TV set into a sculpture, one whose moving image is created by chance procedures and can be manipulated at will. Through his transformation of the television image, Paik challenged the notion of the art object as a self-contained entity and established a process of instant feedback, in which the viewer’s actions have a direct effect on the form and meaning of the work. The interactive quality of Magnet TV paralleled the audience involvement essential to performance art and Happenings of the early 1960s, and also anticipated the participatory nature of much contemporary art."
+      }, {
+        "label" : "technique",
+        "value" : "magnetic distortion"
+      }, {
+        "label" : "publisher",
+        "value" : "Whitney Museum of American Art, New York"
+      }, {
+        "label" : "DCMIType",
+        "value" : "PhysicalObject"
+      }, {
+        "label" : "format",
+        "value" : "sculpture"
+      }, {
+        "label" : "medium",
+        "value" : "Modified black-and-white television set and magnet"
+      }, {
+        "label" : "extent",
+        "value" : "Overall: 38 3/4 × 19 1/4 × 24 1/2in. (98.4 × 48.9 × 62.2 cm)"
+      }, {
+        "label" : "identifier",
+        "value" : "86.60"
+      }, {
+        "label" : "source",
+        "value" : "https://whitney.org/collection/works/6139"
+      }, {
+        "label" : "rights",
+        "value" : "© Nam June Paik Estate"
+      }, {
+        "label" : "provenance",
+        "value" : "Purchased with funds from Dieter Rosenkranz"
+      } ]
+    }, {
+      "@id" : "http://150f51e2-8ede-47e6-868d-b62ffd4b7f45",
+      "@type" : "sc:Canvas",
+      "label" : "My%Desktop (2002)",
+      "height" : 1617,
+      "width" : 2000,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://74444f50-477f-480d-8cfa-7746fbf1dbd4",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8182/iiif/2/jodi.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://localhost:8182/iiif/2/jodi.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 3234000,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 1617,
+          "width" : 2000
+        },
+        "on" : "http://150f51e2-8ede-47e6-868d-b62ffd4b7f45"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "title",
+        "value" : "My%Desktop"
+      }, {
+        "label" : "creator",
+        "value" : "JODI (Joan Heemskerk, Dirk Paesmans)"
+      }, {
+        "label" : "subject",
+        "value" : "desktop"
+      }, {
+        "label" : "subject",
+        "value" : "computer"
+      }, {
+        "label" : "subject",
+        "value" : "glitch"
+      }, {
+        "label" : "subject",
+        "value" : "error"
+      }, {
+        "label" : "date",
+        "value" : "2002"
+      }, {
+        "label" : "description",
+        "value" : "The artist duo JODI made My%Desktop by connecting a computer to a camcorder and capturing the pair’s interactions with the Mac OS 9 desktop system and design. For this work, described by the artists as a “desktop performance,” JODI deliberately exploited the basic functions of the user-friendly interface, rendering them useless: files open at a maddening pace, hundreds of overlapping windows obscure one another, and a nerve-racking number of error messages appear. The resultant chaos, presented as four adjacent video projections and accompanied by a jarring cacophony of Mac alert sounds, might suggest that an anarchic virus has taken control of the computer, when in fact it is the product of frenzied choreography performed by the artists themselves. Through its destabilization of the operating system—a symbol of bureaucratic order in contemporary life—JODI’s intervention tests the limits of popular technology and a society driven by consumer-grade gadgets.\nJODI first gained notoriety for its web-based works created in the mid-1990s, which exposed the chaotic, code-driven underbelly of websites as unintelligible, flickering amalgamations of text characters. Pieces like My%Desktop, which is the first in a body of work by JODI informally known as “screen grabs,” similarly turn systems of technological order against themselves, resulting in mesmerizing depictions of entropic digital landscapes."
+      }, {
+        "label" : "technique",
+        "value" : "data manipulation"
+      }, {
+        "label" : "publisher",
+        "value" : "Museum of Modern Art, New York"
+      }, {
+        "label" : "DCMIType",
+        "value" : "MovingImage"
+      }, {
+        "label" : "format",
+        "value" : "video"
+      }, {
+        "label" : "medium",
+        "value" : "Four-channel video, colour and sound"
+      }, {
+        "label" : "extent",
+        "value" : "20 min"
+      }, {
+        "label" : "identifier",
+        "value" : "305.2015"
+      }, {
+        "label" : "source",
+        "value" : "https://www.moma.org/collection/works/193145"
+      }, {
+        "label" : "rights",
+        "value" : "© 2023 JODI"
+      } ]
+    }, {
+      "@id" : "http://ccc5d48e-ea78-42f0-b03e-9ea3a6f50e54",
+      "@type" : "sc:Canvas",
+      "label" : "Super Mario Clouds (2002)",
+      "height" : 1214,
+      "width" : 2048,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://34f4411f-399d-4311-bcce-f99176274a38",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8182/iiif/2/arcangel.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://localhost:8182/iiif/2/arcangel.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2486272,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 1214,
+          "width" : 2048
+        },
+        "on" : "http://ccc5d48e-ea78-42f0-b03e-9ea3a6f50e54"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "title",
+        "value" : "Super Mario Clouds"
+      }, {
+        "label" : "creator",
+        "value" : "Cory Arcangel"
+      }, {
+        "label" : "subject",
+        "value" : "video game"
+      }, {
+        "label" : "subject",
+        "value" : "clouds"
+      }, {
+        "label" : "subject",
+        "value" : "installation"
+      }, {
+        "label" : "subject",
+        "value" : "digital art"
+      }, {
+        "label" : "date",
+        "value" : "2002"
+      }, {
+        "label" : "description",
+        "value" : "For this video installation, Cory Arcangel “hacked” a cartridge of Super Mario Brothers, the original version of the blockbuster Nintendo video game released in the United States in 1985. By tweaking the game’s code, the artist erased all of the sound and visual elements except the iconic scrolling clouds. On a formal level, the project is reminiscent of paintings that push representation toward abstraction: how many elements can be removed before the ability to discern the source is lost? Arcangel, who was trained in classical music, considers computers and video game consoles his instruments, and insists on mastering them prior to creative exploration; he will often learn a new programming language in order to develop a work. What might be viewed as nostalgia for the popular entertainments of an earlier era depends, in fact, on a rigorous conceptual approach to computer hard- and software as well as a refusal to participate in contemporary culture’s lightning-fast cycle of technological turnover."
+      }, {
+        "label" : "technique",
+        "value" : "data manipulation: handmade hacked Super Mario Brothers cartridge and Nintendo NES video game system"
+      }, {
+        "label" : "publisher",
+        "value" : "Whitney Museum of American Art, New York"
+      }, {
+        "label" : "DCMIType",
+        "value" : "MovingImage"
+      }, {
+        "label" : "format",
+        "value" : "video"
+      }, {
+        "label" : "medium",
+        "value" : "television, colour"
+      }, {
+        "label" : "extent",
+        "value" : "dimensions variable"
+      }, {
+        "label" : "identifier",
+        "value" : "2005.10"
+      }, {
+        "label" : "source",
+        "value" : "https://whitney.org/collection/works/20588"
+      }, {
+        "label" : "rights",
+        "value" : "© Cory Arcangel. Courtesy of the artist"
+      }, {
+        "label" : "provenance",
+        "value" : "Whitney Museum of American Art, New York; purchase, with funds from the Painting and Sculpture Committee"
+      } ]
+    }, {
+      "@id" : "http://8e56ae28-01f7-490a-a406-1cb9d85fc9b1",
+      "@type" : "sc:Canvas",
+      "label" : "Monster Movie (2005)",
+      "height" : 1920,
+      "width" : 2560,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://8f6669e2-0a2f-42a5-971b-c47ae0ee808e",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8182/iiif/2/murata_monster_movie.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://localhost:8182/iiif/2/murata_monster_movie.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 4915200,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 1920,
+          "width" : 2560
+        },
+        "on" : "http://8e56ae28-01f7-490a-a406-1cb9d85fc9b1"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "title",
+        "value" : "Monster Movie"
+      }, {
+        "label" : "creator",
+        "value" : "Takeshi Murata"
+      }, {
+        "label" : "subject",
+        "value" : "movie"
+      }, {
+        "label" : "subject",
+        "value" : "glitch"
+      }, {
+        "label" : "subject",
+        "value" : "error"
+      }, {
+        "label" : "subject",
+        "value" : "colour"
+      }, {
+        "label" : "subject",
+        "value" : "digital art"
+      }, {
+        "label" : "date",
+        "value" : "2005"
+      }, {
+        "label" : "description",
+        "value" : "Takeshi Murata has been influenced by the history of visual music, animation, and abstraction in film, and by the long tradition of reworking this history and recycling its cinematic forms. Yet it takes an artist like Murata to revisit the tradition through digital tools while also exploring a dystopia of the digital age. In Monster Movie a bit of B-movie footage from the 1981 film Caveman becomes a seething, fragmented morass of color and shape that decomposes and reconstitutes itself continuously. Murata’s visions are a nightmare of viral editing, in which all material becomes an endless liquefied abstraction of information, floating in and out of barely recognizable figuration. No image or figure is ever sustained; each is pixelated to its morphology of constant change, driven by currents of psychic states.\nWhen Michael Jackson’s music video for the 1991 song “Black or White” popularized the newly developed technology of morphing software, the message was an ideological call for a global community in which black is white and white is black and historical identities are there to be changed—all ultimately serving the profit of the recording artist and his label. Fast forward to this century, and artists like Murata uncover the latent streams of digital manipulation. Informed by a legacy of Hollywood thrillers and horror movies, Murata’s videos take on the job of destroying any illusion of sustainable identity in the digital realm. Anything can be made out of ones and zeros, and anything can be unmade just as easily. As if we were not yet confused enough about the implications of the shift from analog to digital, Murata’s painterly visuals are unsettling, to say the least. In his work, the scratching and remixing of culture has become a psychedelic affair that speaks to a generation of anime lovers and video-game addicts. And for those still stuck in the realm of the cinematographic, built on frame and narrative, there is at least the possibility of a media archaeology: the narratives of cinema live on, but not in the way we imagined them. For moments, then, there is the sublime recognition of what once was."
+      }, {
+        "label" : "technique",
+        "value" : "data manipulation (datamoshing)"
+      }, {
+        "label" : "publisher",
+        "value" : "San Francisco Museum of Modern Art"
+      }, {
+        "label" : "contributor",
+        "value" : "sound by Plate Tectonics"
+      }, {
+        "label" : "DCMIType",
+        "value" : "MovingImage"
+      }, {
+        "label" : "format",
+        "value" : "video"
+      }, {
+        "label" : "medium",
+        "value" : "single-channel video, colour and sound"
+      }, {
+        "label" : "extent",
+        "value" : "4 min"
+      }, {
+        "label" : "source",
+        "value" : "https://www.sfmoma.org/artwork/2015.378"
+      }, {
+        "label" : "rights",
+        "value" : "© Takeshi Murata"
+      }, {
+        "label" : "provenance",
+        "value" : "Gift of Christopher Vroom"
+      } ]
+    }, {
+      "@id" : "http://384fb3f7-8762-4ea3-a230-507aff335dde",
+      "@type" : "sc:Canvas",
+      "label" : "The Collapse of PAL (2010)",
+      "height" : 525,
+      "width" : 700,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://d52a5caa-2c4d-4eed-bb8b-9012c7ce6136",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8182/iiif/2/menkman.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://localhost:8182/iiif/2/menkman.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 367500,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 525,
+          "width" : 700
+        },
+        "on" : "http://384fb3f7-8762-4ea3-a230-507aff335dde"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "title",
+        "value" : "The Collapse of PAL"
+      }, {
+        "label" : "creator",
+        "value" : "Rosa Menkman"
+      }, {
+        "label" : "subject",
+        "value" : "video performance"
+      }, {
+        "label" : "subject",
+        "value" : "glitch"
+      }, {
+        "label" : "subject",
+        "value" : "technology"
+      }, {
+        "label" : "subject",
+        "value" : "digital art"
+      }, {
+        "label" : "date",
+        "value" : "2010"
+      }, {
+        "label" : "description",
+        "value" : "The Collapse of PAL is a live audio-­visual performance by Rosa Menkman. Menkman originally performed the work on TV-­TV, an artist run television station in Denmark. The Collapse of PAL creates a narrative about the transition from analog to digital television and was performed in three parts: Eulogy, Obsequies, and Requiem for the blue plains of phosphor. Menkman created live-­glitched video using a NES gaming console, image bending, and a broken camera. She also created live sound using a cracklebox, DV-­compressed video bends, feedback, and Eurosignal. The full-­length performance is not available, but an 8 minute 30 second video documentation shows a clip of part one and Menkman’s narrative being typed during the performance. \nThe narrative brings in a character named the Angel of History, based off of Walter Benjamin writings. The angel is the only witness of the execution of PAL, a color encoding system for analog television and its broadcasting. This transition from analog based technologies (PAL) to digital technologies, the use of DVB (digital video broadcasting), can create a loss of a medium. But, Menkman claims the PAL signal is not dead. As Benjamin’s theory famously describes, all technologies are built upon the technologies that precede them. They appropriate the space that the previous technology resided, as well as inherent some of their traits. Menkman claims DVB is flawed in many of the same ways as PAL due to this theory. \nMenkman’s work also reflects ideas of personification of technology and digital media conservation."
+      }, {
+        "label" : "technique",
+        "value" : "hardware failure: production of live-­glitched video using a NES gaming console, image bending, and a broken camera"
+      }, {
+        "label" : "publisher",
+        "value" : "Rhizome ArtBase"
+      }, {
+        "label" : "DCMIType",
+        "value" : "MovingImage"
+      }, {
+        "label" : "format",
+        "value" : "video"
+      }, {
+        "label" : "extent",
+        "value" : "8 minutes, 30 seconds"
+      }, {
+        "label" : "source",
+        "value" : "https://artbase.rhizome.org/wiki/Q2051"
+      } ]
+    } ]
+  } ],
+  "structures" : [ ]
+}
